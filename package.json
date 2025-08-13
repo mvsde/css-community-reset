@@ -1,0 +1,31 @@
+{
+  "name": "css-community-reset",
+  "version": "1.0.0",
+  "description": "A CSS reset inspired by the community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier:lint": "prettier .",
+    "prettier:format": "prettier --write .",
+    "lint:css": "stylelint **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schalkneethling/css-community-reset.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/schalkneethling/css-community-reset/issues"
+  },
+  "homepage": "https://github.com/schalkneethling/css-community-reset#readme",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^39.0.0",
+    "stylelint-order": "^7.0.0",
+    "stylelint-plugin-use-baseline": "^0.8.1"
+  }
+}
