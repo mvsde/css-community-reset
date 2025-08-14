@@ -50,7 +50,7 @@ body {
   /* fallback for older browsers */
   min-block-size: 100vh;
 
-  /* synamic viewport block size - https://developer.mozilla.org/en-US/docs/Web/CSS/length#vb */
+  /* dynamic viewport block size - https://developer.mozilla.org/en-US/docs/Web/CSS/length#vb */
   min-block-size: 100dvb;
 
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering#browser_compatibility */
